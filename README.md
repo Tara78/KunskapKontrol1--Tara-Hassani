@@ -1,1 +1,2 @@
-KunskapKontrol1 : 
+#KunskapKontrol1 : 
+
