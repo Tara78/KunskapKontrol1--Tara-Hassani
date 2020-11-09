@@ -1,18 +1,19 @@
 //1- Byt ut minst ett foto
 
-/* 
+
 let photo= document.querySelector('.art-3 img');
 console.log(photo); 
-photo.setAttribute('src' , 'img/hoodie-forrest.png'); */
+photo.setAttribute('src' , 'img/hoodie-forrest.png'); 
 
 
 
 
 //2- Ändra bakgrundsfärg på minst ett element
-/* const element = document.querySelectorAll('figure'); 
+ const element = document.querySelectorAll('figure'); 
 console.log(element); 
 element[2].style.backgroundColor='blue'; 
-element[0].style.backgroundColor='red';  */
+element[0].style.backgroundColor='red';  
+
 
 
 let htmlElement= document.querySelector('html'); 
@@ -29,13 +30,13 @@ else if(event.key == 'g'|| event.key=='G'){
 else if(event.key =='b'|| event.key=='B'){
     art2.style.backgroundColor='white';
 }
-}); 
+});  
 
 
 //3- Ändra text på minst ett element
-// const text=document.querySelector('h2'); 
-// console.log(text); 
-/* text.innerText='RainCoat'; 
+const text=document.querySelector('h2'); 
+console.log(text); 
+ text.innerText='RainCoat'; 
 
 const text1= document.querySelector('.art-2 h2');
 console.log(text1); 
@@ -44,19 +45,19 @@ text1.innerHTML = 'AtumnColor';
 const text2=document.querySelector('.art-3 p'); 
 console.log(text2); 
 text2.innerHTML= 'NEW ARRIEL FOR WINTER'; 
-text2.styel.fontsize= '50px'; 
- */
+text2.style.fontSize='20px'; 
+ 
 
 
 
 // 4- Ändra färg på minst en knapp
-/* const btn= document.querySelector('.art-2 button'); 
+ const btn= document.querySelector('.art-2 button'); 
 // console.log(btn); 
 btn.style.backgroundColor='red'; 
 
 const btn1= document.querySelector('.art-3 button'); 
 console.log(btn1); 
-btn1.style.backgroundColor='green';  */
+btn1.style.backgroundColor='green';  
 
 
 
@@ -86,16 +87,16 @@ btn1.style.backgroundColor='green';  */
  */
 
 
-let header= document.querySelector("header"); 
+let header1= document.querySelector("header"); 
 
 let headerNavigation= document.querySelector('#header-navigation')
 
-console.log(header); 
+console.log(header1); 
 
 
 let button= document.createElement('button'); 
 button.textContent='Click here'; 
-header.appendChild(button); 
+header1.appendChild(button); 
 
 
 let visable= true; 
@@ -144,17 +145,17 @@ listHolder.appendChild(newList);
 newList.appendChild(newListItem); 
 
 
-let header= document.querySelector("#header-navigation"); 
-console.log(header); 
+let footer= document.querySelector(".footer"); 
+console.log(footer); 
 
 
-let button= document.createElement('button'); 
-button.textContent='Click here'; 
-header.appendChild(button); 
+let buttonf= document.createElement('button'); 
+buttonf.textContent='Click here'; 
+ footer.appendChild(buttonf); 
 
 
-let visable= true; 
-button.addEventListener('click', function(){ 
+let seen= true; 
+buttonf.addEventListener('click', function(){ 
     if(visable){
         newList.style.display='none'; 
         visable=false;
