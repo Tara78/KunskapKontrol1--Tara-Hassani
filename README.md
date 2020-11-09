@@ -42,6 +42,10 @@ InnerHTML method can remove all item by one time click.
 
 In general " for removing any item from the DOM , first we have to select the parent and the removeChild. 
 
+I create a button by using createElement and the used appendChild to show the button and then used textContent .  
+
+Using conditionalStatement (if, else) statment for being visable menu items. Means that the menu items would be viable by clicking the button once and with the next click they are disappearing.
+
 
 <!-- 6-Lägg till en lista var som helst i DOMen (måste tas bort med resetknappen)
    a.Listan ska innehålla flera li element
@@ -53,7 +57,7 @@ Second made a li, and the same process and ul.
 
 I create a button by using createElement and the used appendChild to show the button and then used textContent .  
 
-Using conditionalStatement (if, else) for being visable  ul. Means that the ul would be viable by clicking the button once and with the next click the ul disappear.   
+Using conditionalStatement (if, else) statment for being visable  ul. Means that the ul would be viable by clicking the button once and with the next click the ul disappear.   
 
 
 
