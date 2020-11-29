@@ -10,6 +10,7 @@ function init(){
 function changeStuff(e){
   e.preventDefault(); 
 
+  
 //1 =  Ändra img    
 let photo= document.querySelector('.art-3 img')
 photo.setAttribute('src', 'img/hoodie-forrest.png'); 

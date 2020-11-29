@@ -2,6 +2,11 @@
     --width: 1000px;
 }
 
+.change, .reset{
+    padding: 1rem;
+    background-color:rgb(233, 215, 215);  
+}
+
 
 body {
     margin: 0;
